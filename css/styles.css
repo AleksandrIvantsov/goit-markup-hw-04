@@ -317,12 +317,7 @@ p {
 	fill: currentColor;
 }
 
-.social-icons-list .item {
-	border-radius: 0;
-	box-shadow: none;
-}
-
-.social-icons-list .item:not(:last-child) {
+.social-icons-list .social-icon-item:not(:last-child) {
 	margin-right: 10px;
 }
 
