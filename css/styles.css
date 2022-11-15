@@ -156,6 +156,7 @@ p {
 .contacts-icon {
 	fill: currentColor;
 	margin-right: 10px;
+	vertical-align: middle;
 }
 
 /* Блок герой */
@@ -218,14 +219,12 @@ p {
 .feature-list .thumb {
 	display: flex;
 	height: 120px;
+	justify-content: center;
+	align-items: center;
 
 	background-color: var(--secondary-bg-color);
 	border-radius: 4px;
 	margin-bottom: 30px;
-}
-
-.feature-icon {
-	margin: auto;
 }
 
 .feature-list .title {
@@ -299,6 +298,8 @@ p {
 
 .social-icons-list .link {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 44px;
 	height: 44px;
 
@@ -313,7 +314,6 @@ p {
 
 .social-icon {
 	fill: currentColor;
-	margin: auto;
 }
 
 .social-icons-list .item {
@@ -337,6 +337,8 @@ p {
 
 .clients-list .link {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 170px;
 	height: 92px;
 
@@ -353,7 +355,6 @@ p {
 
 .client-icon {
 	fill: currentColor;
-	margin: auto;
 }
 
 /* Наші роботи */
