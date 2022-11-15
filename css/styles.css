@@ -146,6 +146,7 @@ p {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	font-style: normal;
+	vertical-align: middle;
 }
 
 .contacts-list .link:hover,
